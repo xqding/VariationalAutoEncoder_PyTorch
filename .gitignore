@@ -1,0 +1,6 @@
+*~
+MNIST/data/*.pkl
+MNIST/output/*.model
+MNIST/output/*.pkl
+MNIST/script/*~
+MNIST/script/__pycache__
