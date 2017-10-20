@@ -30,7 +30,7 @@ for n in range(num**2):
     axes.axis('off')
     # axes.get_xaxis().set_visible(False)
     # axes.get_yaxis().set_visible(False)
-fig.savefig("./output/samples.pdf")
+fig.savefig("./output/samples.png")
 
 num_poins = 20
 cdf1 = np.linspace(0, 1, num_poins + 2)[1:-1]
@@ -55,4 +55,4 @@ for n in range(samples.shape[0]):
     axes.axis('off')    
     # axes.get_xaxis().set_visible(False)
     # axes.get_yaxis().set_visible(False)
-fig.savefig("./output/2D_manifold.pdf")
+fig.savefig("./output/2D_manifold.png")

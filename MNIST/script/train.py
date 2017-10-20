@@ -62,7 +62,7 @@ torch.save(vae.state_dict(), "./output/vae_{:.2f}.model".format(weight_decay))
 
 with open('./output/loss.pkl', 'wb') as file_handle:
     pickle.dump({'train_loss_epoch': train_loss_epoch, 'test_loss_epoch': test_loss_epoch,}, file_handle)
-
+   
 fig = plt.figure(0)
 fig.clf()
 plt.plot(train_loss_epoch, label = "train", color = 'r')
@@ -72,4 +72,4 @@ plt.xlabel('epoch')
 plt.ylabel('loss')
 plt.legend()
 plt.title("Loss")
-fig.savefig("./output/loss.pdf")
+fig.savefig("./output/loss.png")
