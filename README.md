@@ -13,3 +13,6 @@ The following figure shows the samples generated from the model.
 
 This figure shows the generated samples in the 2D latent space.
 ![Figure 3](./MNIST/output/2D_manifold.png)
+
+This figure shows the embedding of training samples in 2D latent space. The points are colored by classes
+![Figure 4](./MNIST/output/latent_space_embedding.png)
